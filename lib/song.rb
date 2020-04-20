@@ -1,3 +1,4 @@
+#require 'pry'
 class Song
   attr_accessor :name, :artist_name
   @@all = []
@@ -68,7 +69,7 @@ class Song
 
 end
 
-
+#binding.pry
 
 #this is for the find_or_create_by_name method
 song_1 = Song.find_or_create_by_name("Blank Space")
