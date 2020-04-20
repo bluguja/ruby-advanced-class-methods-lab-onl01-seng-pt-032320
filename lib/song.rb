@@ -74,22 +74,11 @@ end
 
 
 
-#this is for the create_from_filename method & destroy_all
-#song = Song.create_from_filename("Taylor Swift - Blank Space.mp3")
-#song = Song.create_from_filename("Test 02 - Test_02.mp3")
-#song = Song.create_from_filename("Test 03 - Test_03.mp3")
-#puts Song.all.inspect
-#Song.destroy_all
-#puts Song.all.inspect
 
-#song.name #=> "Blank Space"
 #song.artist_name #=> "Taylor Swift"
 
 
-#this is for new_from_filename method
-#song = Song.new_from_filename("Taylor Swift - Blank Space.mp3")
-#song.name #=> "Blank Space"
-#song.artist_name #=> "Taylor Swift"
+
 
 
 
