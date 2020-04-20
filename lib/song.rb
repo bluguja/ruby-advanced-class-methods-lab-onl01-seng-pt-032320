@@ -75,15 +75,6 @@ end
 
 
 
-#song.artist_name #=> "Taylor Swift"
-
-
-
-
-
-
-
-
 #this is for the find_or_create_by_name method
 song_1 = Song.find_or_create_by_name("Blank Space")
 song_2 = Song.find_or_create_by_name("Blank Space")
